@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments and secrets
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated evaluation outputs (templates remain tracked)
+outputs/*.csv
+outputs/*.json
+!outputs/README.md
+
+# Temporary files
+*.log
+*.tmp

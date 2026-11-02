@@ -1,0 +1,93 @@
+[
+  {
+    "id": "Q01",
+    "category": "single_source",
+    "question": "Apa peran kecerdasan buatan dalam deteksi dan diagnosis gangguan PLTS yang terhubung ke jaringan?",
+    "expected_doc_ids": [
+      "D1"
+    ],
+    "expect_no_hit": false
+  },
+  {
+    "id": "Q02",
+    "category": "single_source",
+    "question": "Mengapa validasi dan kalibrasi perlu dipertimbangkan dalam model-based fault detection pada sistem fotovoltaik?",
+    "expected_doc_ids": [
+      "D3"
+    ],
+    "expect_no_hit": false
+  },
+  {
+    "id": "Q03",
+    "category": "single_source",
+    "question": "Apa tantangan metode estimasi soiling pada sistem photovoltaic?",
+    "expected_doc_ids": [
+      "D5"
+    ],
+    "expect_no_hit": false
+  },
+  {
+    "id": "Q04",
+    "category": "single_source",
+    "question": "Mengapa data kinerja digunakan dalam teknik diagnosis kegagalan sistem PV grid connected?",
+    "expected_doc_ids": [
+      "D4"
+    ],
+    "expect_no_hit": false
+  },
+  {
+    "id": "Q05",
+    "category": "single_source",
+    "question": "Bagaimana dokumentasi PVsyst mendefinisikan Performance Ratio pada sistem grid connected standar?",
+    "expected_doc_ids": [
+      "D7"
+    ],
+    "expect_no_hit": false
+  },
+  {
+    "id": "Q06",
+    "category": "single_source",
+    "question": "Bagaimana PVsyst memperlakukan soiling loss dalam simulasi dan apa pengaruh lingkungan serta hujan?",
+    "expected_doc_ids": [
+      "D8"
+    ],
+    "expect_no_hit": false
+  },
+  {
+    "id": "Q07",
+    "category": "cross_document",
+    "question": "Bagaimana metode monitoring soiling photovoltaic, tantangan strategi pemantauan, dan definisi soiling loss pada PVsyst?",
+    "expected_doc_ids": [
+      "D6",
+      "D8"
+    ],
+    "expect_no_hit": false
+  },
+  {
+    "id": "Q08",
+    "category": "cross_document",
+    "question": "Jelaskan hubungan perhitungan Performance Ratio (PR) berdasarkan E_Grid, GlobInc, PnomPV dengan soiling loss sebagai rugi iradiasi menurut dokumentasi PVsyst.",
+    "expected_doc_ids": [
+      "D7",
+      "D8"
+    ],
+    "expect_no_hit": false
+  },
+  {
+    "id": "Q09",
+    "category": "negative",
+    "question": "Apa arti kode alarm A999 pada inverter merek dan model tertentu yang manualnya tidak tersedia di knowledge base ini?",
+    "expected_doc_ids": [],
+    "expect_no_hit": true
+  },
+  {
+    "id": "Q10",
+    "category": "negative_context",
+    "question": "Berapa angka persentase soiling aktual pada instalasi PLTS tertentu jika knowledge base hanya berisi review umum dan dokumentasi PVsyst, tanpa data pengukuran instalasi tersebut?",
+    "expected_doc_ids": [
+      "D5",
+      "D8"
+    ],
+    "expect_no_hit": false
+  }
+]

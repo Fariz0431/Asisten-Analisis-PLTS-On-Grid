@@ -1,0 +1,10 @@
+[project]
+name = "asisten-analisis-plts-on-grid"
+version = "0.1.0"
+description = "Prototipe asisten analisis awal kinerja dan gangguan PLTS On-Grid berbasis RAG"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-ra"
